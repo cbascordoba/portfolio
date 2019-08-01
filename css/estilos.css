@@ -27,7 +27,8 @@ h1 strong{
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
+    align-items: center;
 }
 
 
@@ -73,12 +74,15 @@ figure{
 /* HERO */
 
 .hero{
+
     height:300px;
    background-image: url('../images/hero.jpg');
    background-size: 500px 300px;
    background-repeat: no-repeat;
    background-position-x: right;
    background-color: #1d252c;
+   display: flex;
+   align-items: center;
 }
 
 /* FIN HERO */
@@ -119,3 +123,21 @@ figure{
    margin: 5px;
 }
 
+
+/* //////////////////////   FOOTER   ///////////////////// */
+.footer{
+    background-color: #1b2127;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+ 
+}
+.footer a{
+    color: white;
+}
+/* //////////////////////   FOOTER   ///////////////////// */
