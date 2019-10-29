@@ -125,7 +125,7 @@ ol, ul{
     background-color: rgba(5, 111, 255, .9);
     z-index: 3;
     top: 0;
-    left: 0;
+    left: -100vw;
     bottom: 0;
     width: 100vw;
 
@@ -133,6 +133,7 @@ ol, ul{
     align-items: center;
     justify-content: center;
     transition: 3s;
+    
 
 }
 .menu.is-active{
