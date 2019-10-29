@@ -115,7 +115,28 @@ ol, ul{
     align-items: center;
     height: inherit;
     padding: 0 10px;
+    font-size: 2em;
+    text-decoration:underline;
+    margin-bottom: 5em;
     
+}
+.menu{
+    position: fixed;
+    background-color: rgba(5, 111, 255, .9);
+    z-index: 3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 3s;
+
+}
+.menu.is-active{
+    left: 0;
 }
 
 figure{
@@ -378,12 +399,15 @@ figure{
     z-index: 4;
     left: 5px;
     top: 5px;
+
     color: white;
     display: none;
     
     
 
 }
+
+
 /* //////////////////////   FOOTER   ///////////////////// */
 
 /***************************************************/
